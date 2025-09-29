@@ -34,8 +34,8 @@ US-10	Como cliente, quero filtrar imóveis por faixa de preço para encontrar op
 
 Telas do protótipo do projeto feito no vO
 
-![Protótipo Pagina 1](./ProtótipoPagina1.png)
-![Protótipo Pagina 2](./ProtótipoPagina2.png)
-![Protótipo Pagina 3](./ProtótipoPagina3.png)
-![Protótipo Pagina 4](./ProtótipoPagina4.png)
+![Protótipo Pagina 1](./PrototipoPagina1.png)
+![Protótipo Pagina 2](./PrototipoPagina2.png)
+![Protótipo Pagina 3](./PrototipoPagina3.png)
+![Protótipo Pagina 4](./PrototipoPagina4.png)
 
