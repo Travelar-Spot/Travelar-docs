@@ -1,0 +1,56 @@
+site_name: Travelar - Plataforma de Hospedagem
+site_url: 
+repo_url: 
+repo_name: Travelar
+
+theme:
+  name: material
+  language: pt-BR
+  palette: 
+    # Modo Claro
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    # Modo Escuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs 
+    - navigation.sections
+    - navigation.expand
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences 
+  - admonition 
+
+nav:
+  - Início: index.md
+  - Planejamento:
+    - Visão do Produto: planejamento/visao.md
+    - Backlog do Produto: planejamento/backlog.md
+    - Histórias de Usuário: planejamento/user-stories.md
+  - Design & UX:
+    - Protótipos: design/prototipos.md
+    - Identidade Visual: design/identidade.md
+  - Arquitetura:
+    - Diagramas UML: arquitetura/diagramas.md
+    - Backend: arquitetura/backend.md
+    - Frontend: arquitetura/frontend.md
+  - Banco de Dados:
+    - Modelagem (DER): dados/modelagem.md
+    - Dicionário de Dados: dados/dicionario.md
+  - Qualidade:
+    - Plano de Testes: qualidade/testes.md
+  - Guia de Instalação:
+    - Como rodar o projeto: guia/instalacao.md
