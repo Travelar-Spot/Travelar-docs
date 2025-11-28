@@ -24,7 +24,6 @@ Abaixo, apresentamos as telas que compõem a versão final do protótipo (Identi
 <div align="center">
     <p><strong>1. Tela Inicial</strong></p>
     <img src="https://raw.githubusercontent.com/Travelar-Spot/Travelar-docs/refs/heads/main/docs/design/assets/img1.png" alt="Protótipo Pagina 1" width="100%">
-    <br><br>" alt="Protótipo Pagina 1" width="100%">
     <br><br>
 
     <p><strong>2. Tela de Cadastro</strong></p>
