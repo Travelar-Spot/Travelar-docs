@@ -1,7 +1,7 @@
 site_name: Travelar - Plataforma de Hospedagem
-site_url: 
-repo_url:
-repo_name: Github
+site_url: https://travelar-spot.github.io/Travelar-docs/
+repo_url: https://github.com/Travelar-Spot/Travelar-docs
+repo_name: Travelar-docs
 
 theme:
   name: material
