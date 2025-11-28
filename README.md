@@ -1,6 +1,7 @@
 # Documentação Oficial – Travelar
 
 Documentação central do ecossistema **Travelar**, organizada para fornecer uma visão completa do projeto, desde planejamento até arquitetura, modelagem de dados e integrações entre os microsserviços.
+[Link para a Documentação](https://travelar-spot.github.io/Travelar-docs)
 
 ---
 
