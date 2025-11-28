@@ -1,3 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/arquitetura/api-auth/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/arquitetura/backend/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/arquitetura/frontend/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/dados/banco-de-dados/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/design/prototipo/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/planejamento/backlog/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
+    <url>
+         <loc>https://travelar-spot.github.io/Travelar-docs/planejamento/diagramas/</loc>
+         <lastmod>2025-11-28</lastmod>
+    </url>
 </urlset>
