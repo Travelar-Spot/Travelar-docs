@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../../design/prototipos/">
+        <link rel="prev" href="../api-auth/">
       
       
         <link rel="next" href="../frontend/">
@@ -72,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#backend-travelar" class="md-skip">
+          Pular para conteúdo
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -223,7 +228,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../planejamento/visao.md" class="md-tabs__link">
+        <a href="../../planejamento/backlog/" class="md-tabs__link">
           
   
   
@@ -243,7 +248,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../design/prototipos/" class="md-tabs__link">
+        <a href="../../design/prototipo/" class="md-tabs__link">
           
   
   
@@ -265,7 +270,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../diagramas.md" class="md-tabs__link">
+        <a href="../api-auth/" class="md-tabs__link">
           
   
   
@@ -285,51 +290,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../dados/modelagem.md" class="md-tabs__link">
+        <a href="../../dados/banco-de-dados/" class="md-tabs__link">
           
   
   
   Banco de Dados
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../qualidade/testes/" class="md-tabs__link">
-          
-  
-  
-  Qualidade
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../guia/instalacao.md" class="md-tabs__link">
-          
-  
-  
-  Guia de Instalação
 
         </a>
       </li>
@@ -458,34 +423,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planejamento/visao.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Visão do Produto
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../planejamento/backlog/" class="md-nav__link">
         
   
@@ -493,7 +430,7 @@
   <span class="md-ellipsis">
     
   
-    Backlog do Produto
+    Backlog
   
 
     
@@ -514,14 +451,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planejamento/user-stories/" class="md-nav__link">
+      <a href="../../planejamento/diagramas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Histórias de Usuário
+    Diagramas
   
 
     
@@ -603,42 +540,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../design/prototipos/" class="md-nav__link">
+      <a href="../../design/prototipo/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Protótipos
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../design/identidade.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Identidade Visual
+    Protótipo
   
 
     
@@ -723,14 +632,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../diagramas.md" class="md-nav__link">
+      <a href="../api-auth/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Diagramas UML
+    API de Autenticação
   
 
     
@@ -757,6 +666,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -774,6 +703,357 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-visao-geral-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Visão Geral do Projeto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Visão Geral do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-responsabilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principais Responsabilidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tecnologias-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Tecnologias Utilizadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-estrutura-de-pastas-e-arquitetura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Estrutura de Pastas e Arquitetura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-endpoints-da-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Endpoints da API
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Endpoints da API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-imoveis-imoveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Imóveis (/imoveis)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-reservas-reservas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Reservas (/reservas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-avaliacoes-avaliacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Avaliações (/avaliacoes)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-upload-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Upload (/upload)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-estrategia-de-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Estratégia de Testes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Estratégia de Testes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-tipos-de-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Tipos de Testes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-comandos-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2. Comandos de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-instalacao-e-execucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Instalação e Execução
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Instalação e Execução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-pre-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1. Pré-requisitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-clonar-o-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2. Clonar o repositório
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-arquivo-env" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3. Arquivo .env
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-executando-o-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4. Executando o Projeto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61-construir-e-subir-tudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Construir e subir tudo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-rodar-em-segundo-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Rodar em segundo plano
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-parar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Parar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-acessos-importantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5. Acessos importantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-executar-migrations-dentro-do-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6. Executar Migrations (dentro do container)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#661-acessar-o-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.1 Acessar o container
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#662-rodar-migrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.2 Rodar migrations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#67-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.7. Logs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Postgres
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#68-testes-fora-do-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.8. Testes (fora do Docker)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -876,220 +1156,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dados/modelagem.md" class="md-nav__link">
+      <a href="../../dados/banco-de-dados/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Modelagem (DER)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../dados/dicionario.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dicionário de Dados
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Qualidade
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Qualidade
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../qualidade/testes/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Plano de Testes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Guia de Instalação
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Guia de Instalação
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../guia/instalacao.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Como rodar o projeto
+    Modelagem
   
 
     
@@ -1127,6 +1201,348 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-visao-geral-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Visão Geral do Projeto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Visão Geral do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-responsabilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principais Responsabilidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tecnologias-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Tecnologias Utilizadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-estrutura-de-pastas-e-arquitetura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Estrutura de Pastas e Arquitetura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-endpoints-da-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Endpoints da API
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Endpoints da API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-imoveis-imoveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Imóveis (/imoveis)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-reservas-reservas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Reservas (/reservas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-avaliacoes-avaliacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Avaliações (/avaliacoes)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-upload-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Upload (/upload)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-estrategia-de-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Estratégia de Testes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Estratégia de Testes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-tipos-de-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Tipos de Testes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-comandos-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2. Comandos de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-instalacao-e-execucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Instalação e Execução
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Instalação e Execução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-pre-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1. Pré-requisitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-clonar-o-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2. Clonar o repositório
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-arquivo-env" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3. Arquivo .env
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-executando-o-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4. Executando o Projeto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61-construir-e-subir-tudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Construir e subir tudo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-rodar-em-segundo-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Rodar em segundo plano
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-parar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Parar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-acessos-importantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5. Acessos importantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-executar-migrations-dentro-do-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6. Executar Migrations (dentro do container)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#661-acessar-o-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.1 Acessar o container
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#662-rodar-migrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.2 Rodar migrations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#67-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.7. Logs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Postgres
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#68-testes-fora-do-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.8. Testes (fora do Docker)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1143,9 +1559,244 @@
 
 
 
-  <h1>Backend</h1>
-
-
+<h1 id="backend-travelar">Backend Travelar</h1>
+<h2 id="1-visao-geral-do-projeto">1. Visão Geral do Projeto</h2>
+<p>O <strong>Travelar Backend</strong> é o núcleo de regras de negócios da plataforma. Diferente da Auth API, este serviço gerencia as entidades principais do domínio de hospedagem: Imóveis, Reservas, Avaliações e Upload de Mídia.</p>
+<p>Ele é construído para ser robusto e testável, integrando-se com serviços externos (Cloudinary para imagens) e utilizando containerização (Docker) para facilitar o deploy.</p>
+<p><a href="https://github.com/Travelar-Spot/Travelar-backend">Link para o repositório</a></p>
+<h3 id="principais-responsabilidades">Principais Responsabilidades</h3>
+<ul>
+<li>CRUD completo de Imóveis e gerenciamento de disponibilidade</li>
+<li>Processamento de Reservas (Check-in/Check-out)</li>
+<li>Sistema de Avaliações e Comentários</li>
+<li>Upload e gestão de imagens de imóveis via Cloudinary</li>
+<li>Documentação automática via Swagger</li>
+</ul>
+<h2 id="2-tecnologias-utilizadas">2. Tecnologias Utilizadas</h2>
+<p>A stack tecnológica é consistente com o ecossistema, adicionando ferramentas específicas para testes e documentação.</p>
+<table>
+<thead>
+<tr>
+<th>Tecnologia</th>
+<th>Categoria</th>
+<th>Descrição e Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node.js &amp; TypeScript</td>
+<td>Core</td>
+<td>Base do desenvolvimento backend</td>
+</tr>
+<tr>
+<td>TypeORM</td>
+<td>ORM</td>
+<td>Gerenciamento de entidades e relações complexas (1:N, N:N)</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>Banco de Dados</td>
+<td>Persistência relacional</td>
+</tr>
+<tr>
+<td>Jest</td>
+<td>Testes</td>
+<td>Framework completo para testes Unitários, Integração e Parametrizados</td>
+</tr>
+<tr>
+<td>Swagger</td>
+<td>Documentação</td>
+<td>Geração de documentação interativa da API (swagger.json)</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td>Infraestrutura</td>
+<td>Containerização da aplicação e do banco de dados via docker-compose</td>
+</tr>
+<tr>
+<td>Cloudinary</td>
+<td>Mídia</td>
+<td>Serviço externo para armazenamento e otimização de imagens</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-estrutura-de-pastas-e-arquitetura">3. Estrutura de Pastas e Arquitetura</h2>
+<p>O projeto adota uma arquitetura baseada em <strong>Domínios/Módulos</strong>, onde cada entidade principal possui sua própria pasta contendo toda sua lógica (Controller, Service, Entity, Routes, Tests).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Travelar-backend/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── src/
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   ├── config/                # Configurações de serviços externos
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   │   ├── cloudinary.ts      # Setup do Cloudinary
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   │   ├── env.config.ts      # Variáveis de ambiente
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   │   └── passport.config.ts # Autenticação
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   ├── database/
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   │   └── data-source.ts     # Conexão TypeORM
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   ├── Imovel/                # Módulo de Imóveis
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   │   ├── controller.ts      # Lógica de entrada/saída HTTP
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   │   ├── entity.ts          # Definição da tabela Imóveis
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│   │   ├── routes.ts          # Rotas /imoveis
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   │   ├── service.ts         # Regras de negócio (Criação, busca com filtros)
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   │   └── Testes/            # Bateria de testes do módulo
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│   │       ├── integracao.test.ts
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│   │       ├── parametrizados.test.ts
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   │       └── unitarios.test.ts
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   ├── Reserva/               # Módulo de Reservas (estrutura idêntica ao Imovel)
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│   ├── Avaliacao/             # Módulo de Avaliações (estrutura idêntica ao Imovel)
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   ├── Usuario/               # Módulo de Gestão de Perfil de Usuário
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│   ├── UploadImagens/         # Rotas utilitárias para upload
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│   │   └── routes.ts
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   ├── swagger/               # Definições da API
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   │   └── swagger.json
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│   ├── app.ts                 # Setup do App Express
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>│   └── server.ts              # Inicialização
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>├── coverage/                  # Relatórios de cobertura de testes Jest
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>├── docker-compose.yml         # Orquestração de containers
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>├── Dockerfile                 # Imagem Docker da aplicação
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>├── jest.config.js             # Configuração global de testes
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>└── package.json
+</code></pre></div>
+<h2 id="4-endpoints-da-api">4. Endpoints da API</h2>
+<p>Abaixo estão os principais grupos de endpoints gerenciados pelo Core Backend.</p>
+<h3 id="41-imoveis-imoveis">4.1. Imóveis (/imoveis)</h3>
+<p>Gerencia o catálogo de propriedades.</p>
+<ul>
+<li><strong>POST /imoveis</strong> - Cadastra novo imóvel (Requer auth)</li>
+<li><strong>GET /imoveis</strong> - Busca pública com filtros (cidade, preço, datas)</li>
+<li><strong>GET /imoveis/{id}</strong> - Detalhes de um imóvel específico</li>
+<li><strong>PUT /imoveis/{id}</strong> - Atualiza dados do imóvel (Apenas proprietário)</li>
+<li><strong>DELETE /imoveis/{id}</strong> - Remove imóvel do sistema</li>
+</ul>
+<h3 id="42-reservas-reservas">4.2. Reservas (/reservas)</h3>
+<p>Controla o fluxo de aluguel.</p>
+<ul>
+<li><strong>POST /reservas</strong> - Cria uma intenção de reserva</li>
+<li><strong>GET /reservas</strong> - Lista reservas do usuário logado</li>
+<li><strong>PUT /reservas/{id}</strong> - Atualiza datas ou status da reserva</li>
+<li><strong>DELETE /reservas/{id}</strong> - Cancela uma reserva</li>
+</ul>
+<h3 id="43-avaliacoes-avaliacoes">4.3. Avaliações (/avaliacoes)</h3>
+<p>Sistema de feedback.</p>
+<ul>
+<li><strong>POST /avaliacoes</strong> - Cria avaliação para uma estadia concluída</li>
+<li><strong>GET /avaliacoes/imovel/{id}</strong> - Lista avaliações de uma propriedade</li>
+</ul>
+<h3 id="44-upload-upload">4.4. Upload (/upload)</h3>
+<ul>
+<li><strong>POST /upload</strong> - Recebe multipart/form-data, envia para o Cloudinary e retorna a URL segura da imagem</li>
+</ul>
+<h2 id="5-estrategia-de-testes">5. Estratégia de Testes</h2>
+<p>O projeto possui uma cultura forte de qualidade de software, utilizando Jest para três níveis de testes, localizados dentro da pasta <code>Testes</code> de cada módulo:</p>
+<h3 id="51-tipos-de-testes">5.1. Tipos de Testes</h3>
+<ul>
+<li><strong>Testes Unitários:</strong> Testam funções isoladas (ex: validação de data, cálculo de preço) sem tocar no banco de dados</li>
+<li><strong>Testes de Integração:</strong> Validam o fluxo completo desde a rota, passando pelo Controller e Service, até a persistência no banco de dados (usando um banco de teste)</li>
+<li><strong>Testes Parametrizados:</strong> Executam o mesmo teste com múltiplos conjuntos de dados de entrada para cobrir edge-cases (ex: datas inválidas, valores negativos)</li>
+</ul>
+<h3 id="52-comandos-de-teste">5.2. Comandos de Teste</h3>
+<ul>
+<li><code>npm test</code> - Executa toda a suíte</li>
+<li><code>npm run test:coverage</code> - Gera relatório de cobertura de código (pasta <code>/coverage</code>)</li>
+</ul>
+<h2 id="6-instalacao-e-execucao">6. Instalação e Execução</h2>
+<p>Este documento descreve como instalar, configurar e executar o <strong>backend do projeto Travelar usando apenas Docker e Docker Compose</strong>, incluindo:</p>
+<ul>
+<li>API Backend (Node.js + TypeScript)</li>
+<li>Banco de dados PostgreSQL</li>
+<li>PgAdmin (interface gráfica)</li>
+<li>Documentação Swagger</li>
+</ul>
+<hr />
+<h3 id="61-pre-requisitos">6.1. Pré-requisitos</h3>
+<p>Certifique-se de ter instalado:</p>
+<ul>
+<li><strong>Docker</strong></li>
+<li><strong>Docker Compose</strong></li>
+<li>Git</li>
+</ul>
+<hr />
+<h3 id="62-clonar-o-repositorio">6.2. Clonar o repositório</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Travelar-Spot/Travelar-backend.git
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>Travelar-backend
+</code></pre></div>
+<hr />
+<h3 id="63-arquivo-env">6.3. Arquivo <code>.env</code></h3>
+<p>Deixe o arquivo .env assim:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>PORT=3000
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>NODE_ENV=production
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>DB_HOST=db
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>DB_PORT=5432
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>DB_DATABASE=travelar
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>DB_USERNAME=developer
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>DB_PASSWORD=password_exemplo
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>JWT_SECRET=sua_chave_jwt
+</code></pre></div>
+<hr />
+<h3 id="64-executando-o-projeto">6.4. Executando o Projeto</h3>
+<h3 id="61-construir-e-subir-tudo">6.1 Construir e subir tudo</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> </span>--build
+</code></pre></div>
+<h3 id="62-rodar-em-segundo-plano">6.2 Rodar em segundo plano</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> </span>-d
+</code></pre></div>
+<h3 id="63-parar">6.3 Parar</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span>compose<span class="w"> </span>down
+</code></pre></div>
+<hr />
+<h3 id="65-acessos-importantes">6.5. Acessos importantes</h3>
+<table>
+<thead>
+<tr>
+<th>Serviço</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Backend (API)</strong></td>
+<td><a href="http://localhost:3000">http://localhost:3000</a></td>
+</tr>
+<tr>
+<td><strong>Swagger</strong></td>
+<td><a href="http://localhost:3000/api-docs">http://localhost:3000/api-docs</a></td>
+</tr>
+<tr>
+<td><strong>PgAdmin</strong></td>
+<td><a href="http://localhost:5050">http://localhost:5050</a></td>
+</tr>
+<tr>
+<td><strong>PostgreSQL</strong></td>
+<td>localhost:5432</td>
+</tr>
+</tbody>
+</table>
+<p>PgAdmin login (padrão configurado):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Email: admin@admin.com
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>Senha: admin
+</code></pre></div>
+<hr />
+<h3 id="66-executar-migrations-dentro-do-container">6.6. Executar Migrations (dentro do container)</h3>
+<h3 id="661-acessar-o-container">6.6.1 Acessar o container</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>travelar-backend<span class="w"> </span>sh
+</code></pre></div>
+<h3 id="662-rodar-migrations">6.6.2 Rodar migrations</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>npm<span class="w"> </span>run<span class="w"> </span>typeorm<span class="w"> </span>--<span class="w"> </span>migration:run<span class="w"> </span>-d<span class="w"> </span>src/database/data-source.ts
+</code></pre></div>
+<hr />
+<h3 id="67-logs">6.7. Logs</h3>
+<h3 id="backend">Backend</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>docker<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span>travelar-backend
+</code></pre></div>
+<h3 id="postgres">Postgres</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>docker<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span>travelar-db
+</code></pre></div>
+<hr />
+<h3 id="68-testes-fora-do-docker">6.8. Testes (fora do Docker)</h3>
+<p><em>(Recomendado rodar localmente se quiser relatórios)</em></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>npm<span class="w"> </span><span class="nb">test</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>npm<span class="w"> </span>run<span class="w"> </span>test:watch
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>npm<span class="w"> </span>run<span class="w"> </span>test:coverage
+</code></pre></div>
 
 
 
@@ -1199,6 +1850,8 @@
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>

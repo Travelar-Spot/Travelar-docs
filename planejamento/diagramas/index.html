@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../../arquitetura/frontend/">
+        <link rel="prev" href="../backlog/">
       
+      
+        <link rel="next" href="../../design/prototipo/">
       
       
         
@@ -21,7 +23,7 @@
     
     
       
-        <title>Plano de Testes - Travelar - Plataforma de Hospedagem</title>
+        <title>Diagramas - Travelar - Plataforma de Hospedagem</title>
       
     
     
@@ -71,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#diagrama-de-classes-e-fluxo-de-dados" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Plano de Testes
+              Diagramas
             
           </span>
         </div>
@@ -217,11 +224,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../planejamento/visao.md" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../backlog/" class="md-tabs__link">
           
   
   
@@ -241,7 +250,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../design/prototipos/" class="md-tabs__link">
+        <a href="../../design/prototipo/" class="md-tabs__link">
           
   
   
@@ -261,7 +270,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../arquitetura/diagramas.md" class="md-tabs__link">
+        <a href="../../arquitetura/api-auth/" class="md-tabs__link">
           
   
   
@@ -281,53 +290,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../dados/modelagem.md" class="md-tabs__link">
+        <a href="../../dados/banco-de-dados/" class="md-tabs__link">
           
   
   
   Banco de Dados
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
-          
-  
-  
-  Qualidade
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../guia/instalacao.md" class="md-tabs__link">
-          
-  
-  
-  Guia de Instalação
 
         </a>
       </li>
@@ -399,28 +366,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -438,7 +408,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -456,14 +426,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planejamento/visao.md" class="md-nav__link">
+      <a href="../backlog/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Visão do Produto
+    Backlog
   
 
     
@@ -481,17 +451,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../planejamento/backlog/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagramas
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Backlog do Produto
+    Diagramas
   
 
     
@@ -500,34 +497,159 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../planejamento/user-stories/" class="md-nav__link">
+      
         
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
   
   
-  <span class="md-ellipsis">
+  
     
   
-    Histórias de Usuário
   
-
-    
-  </span>
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-diagrama-de-classes-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Diagrama de Classes (UML)
+      
+    </span>
+  </a>
   
-
-      </a>
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-fluxo-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Fluxo de Dados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-detalhes-do-diagrama-de-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Detalhes do Diagrama de Classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Detalhes do Diagrama de Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-classe-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Classe Usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-classe-imovel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Classe Imovel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-classe-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3. Classe Reserva
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-classe-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4. Classe Avaliacao
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-relacionamentos-e-cardinalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Relacionamentos e Cardinalidades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tipos-enumerados-enums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Tipos Enumerados (Enums)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Tipos Enumerados (Enums)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-status-da-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Status da Versão
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -601,42 +723,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../design/prototipos/" class="md-nav__link">
+      <a href="../../design/prototipo/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Protótipos
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../design/identidade.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Identidade Visual
+    Protótipo
   
 
     
@@ -718,14 +812,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../arquitetura/diagramas.md" class="md-nav__link">
+      <a href="../../arquitetura/api-auth/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Diagramas UML
+    API de Autenticação
   
 
     
@@ -863,231 +957,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dados/modelagem.md" class="md-nav__link">
+      <a href="../../dados/banco-de-dados/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Modelagem (DER)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../dados/dicionario.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dicionário de Dados
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Qualidade
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Qualidade
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Plano de Testes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Guia de Instalação
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Guia de Instalação
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../guia/instalacao.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Como rodar o projeto
+    Modelagem
   
 
     
@@ -1125,6 +1002,149 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-diagrama-de-classes-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Diagrama de Classes (UML)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-fluxo-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Fluxo de Dados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-detalhes-do-diagrama-de-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Detalhes do Diagrama de Classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Detalhes do Diagrama de Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-classe-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Classe Usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-classe-imovel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Classe Imovel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-classe-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3. Classe Reserva
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-classe-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4. Classe Avaliacao
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-relacionamentos-e-cardinalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Relacionamentos e Cardinalidades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tipos-enumerados-enums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Tipos Enumerados (Enums)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Tipos Enumerados (Enums)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-status-da-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Status da Versão
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1141,9 +1161,201 @@
 
 
 
-  <h1>Plano de Testes</h1>
+<h1 id="diagrama-de-classes-e-fluxo-de-dados">Diagrama de Classes e Fluxo de Dados</h1>
+<hr />
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Este documento apresenta a estrutura estática orientada a objetos do sistema <strong>Travelar</strong>. O Diagrama de Classes aqui detalhado serve como a planta baixa para a implementação do backend, definindo os atributos, os métodos essenciais e a cardinalidade dos relacionamentos entre as entidades.</p>
+<hr />
+<h2 id="2-diagrama-de-classes-uml">2. Diagrama de Classes (UML)</h2>
+<p>A representação visual abaixo foi gerada utilizando a sintaxe Mermaid, facilitando a visualização dos acoplamentos e dependências.</p>
+<pre class="mermaid"><code>classDiagram
+    %% Classes Principais
+    class Usuario {
+        +Integer id
+        +String nome
+        +String email
+        +String telefone
+        +RoleEnum role
+        +String senhaHash
+        +String foto
+        +DateTime criadoEm
+        +criarConta()
+        +fazerLogin()
+        +fazerLogout()
+        +editarPerfil()
+        +excluirConta()
+    }
 
+    class Imovel {
+        +Integer id
+        +String titulo
+        +String descricao
+        +TipoImovelEnum tipo
+        +String endereco
+        +String cidade
+        +Float precoPorNoite
+        +Integer capacidade
+        +Boolean disponivel
+        +String foto
+        +Integer proprietarioId
+        +cadastrar()
+        +editar()
+        +buscarPorCidade()
+        +aplicarFiltros()
+    }
 
+    class Reserva {
+        +Integer id
+        +Date dataInicio
+        +Date dataFim
+        +Float valorTotal
+        +StatusReservaEnum status
+        +DateTime criadoEm
+        +Integer clienteId
+        +Integer imovelId
+        +solicitar()
+        +confirmar()
+        +visualizarStatus()
+    }
+
+    class Avaliacao {
+        +Integer id
+        +Integer nota
+        +String comentario
+        +Integer autorId
+        +Integer imovelId
+        +atribuirNota()
+    }
+
+    %% Enums
+    class RoleEnum {
+        &lt;&lt;enumeration&gt;&gt;
+        CLIENTE
+        PROPRIETARIO
+        AMBOS
+    }
+
+    class StatusReservaEnum {
+        &lt;&lt;enumeration&gt;&gt;
+        PENDENTE
+        CONFIRMADA
+        CANCELADA
+        CONCLUIDA
+    }
+
+    class TipoImovelEnum {
+        &lt;&lt;enumeration&gt;&gt;
+        CASA
+        APARTAMENTO
+        SITIO
+        POUSADA
+    }
+
+    %% Relacionamentos
+    Usuario "1" -- "0..*" Imovel : possui (proprietário)
+    Usuario "1" -- "0..*" Reserva : faz (cliente)
+    Usuario "1" -- "0..*" Avaliacao : escreve (autor)
+    Imovel "1" -- "0..*" Reserva : recebe
+    Imovel "1" -- "0..*" Avaliacao : possui
+
+    Usuario ..&gt; RoleEnum
+    Reserva ..&gt; StatusReservaEnum
+    Imovel ..&gt; TipoImovelEnum</code></pre>
+<hr />
+<h2 id="diagrama-de-fluxo-de-dados">Diagrama de Fluxo de Dados</h2>
+<p><img alt="" src="../assets/fluxo_de_dados.png" /></p>
+<h2 id="3-detalhes-do-diagrama-de-classes">3. Detalhes do Diagrama de Classes</h2>
+<p>Abaixo, detalhamos as responsabilidades de cada classe e a origem de seus métodos no Backlog.</p>
+<h3 id="31-classe-usuario">3.1. Classe <code>Usuario</code></h3>
+<p>Representa todos os atores do sistema. A distinção entre quem aluga e quem hospeda é feita pelo atributo <code>role</code>, simplificando a arquitetura e evitando heranças desnecessárias nesta etapa.</p>
+<ul>
+<li><strong>Atributos Chave:</strong> <code>nome</code>, <code>email</code> (único), <code>senhaHash</code> (segurança), <code>role</code> (perfil).</li>
+<li><strong>Métodos Principais:</strong></li>
+<li><code>criarConta()</code>: Atende a <strong>US-01</strong>.</li>
+<li><code>fazerLogin()</code> / <code>fazerLogout()</code>: Atende a <strong>US-02</strong> e <strong>US-03</strong>.</li>
+<li><code>editarPerfil()</code>: Atende a <strong>US-04</strong>.</li>
+</ul>
+<h3 id="32-classe-imovel">3.2. Classe <code>Imovel</code></h3>
+<p>Representa a unidade de negócio principal da plataforma. Contém os dados físicos e descritivos da propriedade.</p>
+<ul>
+<li><strong>Atributos Chave:</strong> <code>precoPorNoite</code>, <code>capacidade</code>, <code>cidade</code>, <code>disponivel</code>.</li>
+<li><strong>Métodos Principais:</strong></li>
+<li><code>cadastrar()</code> / <code>editar()</code>: Ações do proprietário (<strong>US-06</strong>, <strong>US-07</strong>).</li>
+<li><code>buscarPorCidade()</code> / <code>aplicarFiltros()</code>: Ações de busca do cliente (<strong>US-08</strong>, <strong>US-09</strong>).</li>
+</ul>
+<h3 id="33-classe-reserva">3.3. Classe <code>Reserva</code></h3>
+<p>Classe associativa que materializa a transação entre um Cliente e um Imóvel. É temporal (tem início e fim) e possui um ciclo de vida (status).</p>
+<ul>
+<li><strong>Atributos Chave:</strong> <code>dataInicio</code>, <code>dataFim</code>, <code>valorTotal</code>, <code>status</code>.</li>
+<li><strong>Métodos Principais:</strong></li>
+<li><code>solicitar()</code>: Inicia o processo (<strong>US-10</strong>).</li>
+<li><code>confirmar()</code>: Ação do proprietário para validar a estadia (<strong>US-11</strong>).</li>
+<li><code>visualizarStatus()</code>: Acompanhamento pelo cliente (<strong>US-12</strong>).</li>
+</ul>
+<h3 id="34-classe-avaliacao">3.4. Classe <code>Avaliacao</code></h3>
+<p>Responsável por armazenar o feedback qualitativo e quantitativo da experiência.</p>
+<ul>
+<li><strong>Atributos Chave:</strong> <code>nota</code> (Inteiro de 1 a 5), <code>comentario</code>.</li>
+<li><strong>Métodos Principais:</strong></li>
+<li><code>atribuirNota()</code>: Finaliza a jornada do cliente (<strong>US-13</strong>).</li>
+</ul>
+<hr />
+<h2 id="4-relacionamentos-e-cardinalidades">4. Relacionamentos e Cardinalidades</h2>
+<p>A lógica de relacionamento foi desenhada para garantir a integridade referencial dos dados:</p>
+<table>
+<thead>
+<tr>
+<th>Origem</th>
+<th style="text-align: center;">Cardinalidade</th>
+<th>Destino</th>
+<th>Descrição do Vínculo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Usuario</strong></td>
+<td style="text-align: center;"><code>1</code> para <code>0..*</code></td>
+<td><strong>Imovel</strong></td>
+<td>Um usuário pode ser proprietário de múltiplos imóveis, ou nenhum.</td>
+</tr>
+<tr>
+<td><strong>Usuario</strong></td>
+<td style="text-align: center;"><code>1</code> para <code>0..*</code></td>
+<td><strong>Reserva</strong></td>
+<td>Um usuário pode realizar várias reservas ao longo do tempo.</td>
+</tr>
+<tr>
+<td><strong>Usuario</strong></td>
+<td style="text-align: center;"><code>1</code> para <code>0..*</code></td>
+<td><strong>Avaliacao</strong></td>
+<td>Um usuário pode escrever múltiplas avaliações (uma por estadia).</td>
+</tr>
+<tr>
+<td><strong>Imovel</strong></td>
+<td style="text-align: center;"><code>1</code> para <code>0..*</code></td>
+<td><strong>Reserva</strong></td>
+<td>Um imóvel pode receber várias reservas em datas diferentes.</td>
+</tr>
+<tr>
+<td><strong>Imovel</strong></td>
+<td style="text-align: center;"><code>1</code> para <code>0..*</code></td>
+<td><strong>Avaliacao</strong></td>
+<td>Um imóvel acumula avaliações de diferentes hóspedes.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-tipos-enumerados-enums">5. Tipos Enumerados (Enums)</h2>
+<p>Para garantir a padronização dos dados e evitar erros de digitação ("Magic Strings"), foram definidos os seguintes enumeradores:</p>
+<ul>
+<li><strong>RoleEnum:</strong> Define permissões (<code>CLIENTE</code>, <code>PROPRIETARIO</code>, <code>AMBOS</code>).</li>
+<li><strong>StatusReservaEnum:</strong> Controla o fluxo da reserva (<code>PENDENTE</code> -&gt; <code>CONFIRMADA</code> ou <code>CANCELADA</code>).</li>
+<li><strong>TipoImovelEnum:</strong> Categoriza as propriedades (<code>CASA</code>, <code>APARTAMENTO</code>, etc.).</li>
+</ul>
+<hr />
+<h3 id="6-status-da-versao">6. Status da Versão</h3>
+<p><strong>Nota de Atualização:</strong> Esta é a <strong>Versão 2.0 (Definitiva)</strong> do Diagrama de Classes.</p>
+<p>Houve uma revisão completa da primeira versão preliminar. A atualização foi necessária para garantir a consistência estrita com o script SQL de banco de dados aprovado e para cobrir todas as funcionalidades exigidas no Backlog do Produto (Épicos 1, 2 e 3). Diferente da versão anterior, esta especificação detalha os tipos de dados exatos e os métodos de ação derivados das Histórias de Usuário.</p>
 
 
 
@@ -1197,6 +1409,8 @@
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>

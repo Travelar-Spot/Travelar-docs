@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../backend/">
+        <link rel="prev" href="../../design/prototipo/">
       
       
-        <link rel="next" href="../../dados/banco-de-dados/">
+        <link rel="next" href="../backend/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Frontend - Travelar - Plataforma de Hospedagem</title>
+        <title>API de Autenticação - Travelar - Plataforma de Hospedagem</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#frontend-travelar" class="md-skip">
+        <a href="#api-de-autenticacao-do-travelar" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Frontend
+              API de Autenticação
             
           </span>
         </div>
@@ -270,7 +270,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../api-auth/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -629,62 +629,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../api-auth/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    API de Autenticação
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../backend/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Backend
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -704,7 +648,7 @@
   <span class="md-ellipsis">
     
   
-    Frontend
+    API de Autenticação
   
 
     
@@ -722,7 +666,7 @@
   <span class="md-ellipsis">
     
   
-    Frontend
+    API de Autenticação
   
 
     
@@ -756,6 +700,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Visão Geral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcoes-primarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funções Primárias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -770,10 +731,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-estrutura-do-projeto" class="md-nav__link">
+  <a href="#3-arquitetura-e-estrutura-de-pastas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Estrutura do Projeto
+        3. Arquitetura e Estrutura de Pastas
       
     </span>
   </a>
@@ -781,10 +742,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-configuracao-de-testes-cypress" class="md-nav__link">
+  <a href="#4-endpoints-da-api" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Configuração de Testes (Cypress)
+        4. Endpoints da API
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Endpoints da API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-registro-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Registro de Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-perfil-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Perfil do Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-seguranca-e-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Segurança e Dados
       
     </span>
   </a>
@@ -792,21 +803,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-integracao-e-fluxos" class="md-nav__link">
+  <a href="#6-variaveis-de-ambiente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Integração e Fluxos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-scripts-disponiveis" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. Scripts Disponíveis
+        6. Variáveis de Ambiente
       
     </span>
   </a>
@@ -870,10 +870,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#73-configuracao" class="md-nav__link">
+  <a href="#73-configuracao-do-ambiente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3. Configuração
+        7.3. Configuração do Ambiente
       
     </span>
   </a>
@@ -881,10 +881,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#731-criar-arquivo-env" class="md-nav__link">
+  <a href="#731-arquivo-env" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.1 Criar arquivo .env
+        7.3.1. Arquivo .env
       
     </span>
   </a>
@@ -914,10 +914,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#742-build-de-producao" class="md-nav__link">
+  <a href="#742-modo-producao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.4.2. Build de produção
+        7.4.2 Modo Produção
       
     </span>
   </a>
@@ -925,54 +925,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#743-visualizar-build" class="md-nav__link">
+  <a href="#75-scripts-uteis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.4.3. Visualizar build
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#75-testes-cypress" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5. Testes (Cypress)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#751-modo-interativo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5.1 Modo interativo
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#752-headless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5.2 Headless
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#76-qualidade-de-codigo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.6. Qualidade de Código
+        7.5. Scripts Úteis
       
     </span>
   </a>
@@ -988,6 +944,62 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontend
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1124,6 +1136,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Visão Geral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcoes-primarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funções Primárias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1138,10 +1167,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-estrutura-do-projeto" class="md-nav__link">
+  <a href="#3-arquitetura-e-estrutura-de-pastas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Estrutura do Projeto
+        3. Arquitetura e Estrutura de Pastas
       
     </span>
   </a>
@@ -1149,10 +1178,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-configuracao-de-testes-cypress" class="md-nav__link">
+  <a href="#4-endpoints-da-api" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Configuração de Testes (Cypress)
+        4. Endpoints da API
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Endpoints da API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-registro-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Registro de Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-perfil-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Perfil do Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-seguranca-e-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Segurança e Dados
       
     </span>
   </a>
@@ -1160,21 +1239,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-integracao-e-fluxos" class="md-nav__link">
+  <a href="#6-variaveis-de-ambiente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Integração e Fluxos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-scripts-disponiveis" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. Scripts Disponíveis
+        6. Variáveis de Ambiente
       
     </span>
   </a>
@@ -1238,10 +1306,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#73-configuracao" class="md-nav__link">
+  <a href="#73-configuracao-do-ambiente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3. Configuração
+        7.3. Configuração do Ambiente
       
     </span>
   </a>
@@ -1249,10 +1317,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#731-criar-arquivo-env" class="md-nav__link">
+  <a href="#731-arquivo-env" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.1 Criar arquivo .env
+        7.3.1. Arquivo .env
       
     </span>
   </a>
@@ -1282,10 +1350,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#742-build-de-producao" class="md-nav__link">
+  <a href="#742-modo-producao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.4.2. Build de produção
+        7.4.2 Modo Produção
       
     </span>
   </a>
@@ -1293,54 +1361,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#743-visualizar-build" class="md-nav__link">
+  <a href="#75-scripts-uteis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.4.3. Visualizar build
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#75-testes-cypress" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5. Testes (Cypress)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#751-modo-interativo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5.1 Modo interativo
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#752-headless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.5.2 Headless
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#76-qualidade-de-codigo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7.6. Qualidade de Código
+        7.5. Scripts Úteis
       
     </span>
   </a>
@@ -1369,13 +1393,19 @@
 
 
 
-<h1 id="frontend-travelar">Frontend Travelar</h1>
+<h1 id="api-de-autenticacao-do-travelar">API de Autenticação do Travelar</h1>
 <h2 id="1-visao-geral">1. Visão Geral</h2>
-<p>O <strong>Travelar Frontend</strong> é a interface visual da plataforma, responsável por oferecer uma experiência rica e interativa para hóspedes e proprietários. O projeto consome as APIs de Backend e Autenticação para fornecer funcionalidades de busca, reserva e gestão de propriedades.</p>
-<p>O foco da arquitetura é robustez e testabilidade, utilizando TypeScript extensivamente e uma suíte dedicada de testes End-to-End (E2E).</p>
-<p><a href="https://github.com/Travelar-Spot/Travelar-frontend">Link para o repositório</a></p>
+<p>A <strong>Travelar Auth API</strong> é um microserviço fundamental e independente dentro do ecossistema Travelar. Sua responsabilidade é centralizar toda a lógica de segurança, garantindo modularidade e escalabilidade ao isolar o gerenciamento de identidades dos demais serviços de negócio.</p>
+<p><a href="https://github.com/Travelar-Spot/Travelar-Auth-API">Link para o repositório</a></p>
+<h3 id="funcoes-primarias">Funções Primárias</h3>
+<ul>
+<li>Criação e autenticação de contas de usuários</li>
+<li>Emissão, assinatura e validação de JSON Web Tokens (JWT)</li>
+<li>Proteção de rotas internas via middleware</li>
+<li>Segurança no armazenamento de credenciais (Hashing)</li>
+</ul>
 <h2 id="2-tecnologias-utilizadas">2. Tecnologias utilizadas</h2>
-<p>A camada de apresentação utiliza bibliotecas modernas do ecossistema JavaScript/TypeScript.</p>
+<p>O projeto foi construído utilizando um conjunto robusto de ferramentas focadas em performance e tipagem estática.</p>
 <table>
 <thead>
 <tr>
@@ -1385,116 +1415,208 @@
 </thead>
 <tbody>
 <tr>
-<td>React</td>
-<td>Biblioteca principal para construção de interfaces</td>
+<td>Node.js</td>
+<td>Ambiente de execução JavaScript server-side</td>
+</tr>
+<tr>
+<td>Express</td>
+<td>Framework web para roteamento e controle HTTP</td>
 </tr>
 <tr>
 <td>TypeScript</td>
-<td>Linguagem base, configurada para compilação ES5/CommonJS nos testes</td>
+<td>Superset JS para tipagem estática e segurança de código</td>
 </tr>
 <tr>
-<td>Cypress</td>
-<td>Framework de testes automatizados End-to-End</td>
+<td>TypeORM</td>
+<td>ORM para modelagem de entidades e migrações de banco</td>
 </tr>
 <tr>
-<td>Axios/Fetch</td>
-<td>Comunicação HTTP com os microsserviços Backend e Auth</td>
+<td>PostgreSQL</td>
+<td>Banco de dados relacional para persistência de usuários</td>
 </tr>
 <tr>
-<td>Node.js</td>
-<td>Ambiente de execução para ferramentas de build e testes</td>
+<td>Passport.js</td>
+<td>Middleware de autenticação (Estratégias JWT)</td>
+</tr>
+<tr>
+<td>Bcrypt</td>
+<td>Algoritmo de hashing para criptografia de senhas</td>
+</tr>
+<tr>
+<td>Class-Validator</td>
+<td>Validação de dados de entrada (DTOs) via decorators</td>
 </tr>
 </tbody>
 </table>
-<h2 id="3-estrutura-do-projeto">3. Estrutura do Projeto</h2>
-<p>A organização de pastas reflete a separação entre código fonte da aplicação e ambiente de testes.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>travelar-frontend/
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── cypress/               # Ambiente de Testes E2E
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   ├── e2e/               # Especificações dos testes (spec files)
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   ├── support/           # Comandos personalizados e configurações
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   └── tsconfig.json      # Configuração TS específica para o Cypress 
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├── src/                   # Código Fonte da Aplicação
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   ├── components/        # Componentes reutilizáveis (Botões, Cards)
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   ├── pages/             # Componentes de Página (Home, Login, Detalhes)
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   ├── services/          # Integração com APIs (Auth e Core)
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   ├── context/           # Gerenciamento de estado global
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   └── styles/            # Arquivos de estilização (CSS/Sass)
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>├── cypress.config.ts      # Configuração global do Cypress
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>├── package.json           # Dependências e Scripts
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>└── tsconfig.json          # Configuração base do TypeScript
+<h2 id="3-arquitetura-e-estrutura-de-pastas">3. Arquitetura e Estrutura de Pastas</h2>
+<p>A estrutura segue uma organização em camadas, separando configurações, lógica de domínio e interfaces de acesso.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>src/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── api/
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   └── auth/                  # Módulo principal de Autenticação
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│       ├── dto/               # Objetos de Transferência de Dados (Validação)
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│       ├── authController.ts  # Camada de entrada (Request/Response)
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│       ├── authRoutes.ts      # Definição dos endpoints
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│       ├── authService.ts     # Regras de negócio (Login, Registro)
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│       └── userEntity.ts      # Modelo ORM da tabela de usuários
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>├── config/
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   ├── env.config.ts          # Carregamento de variáveis de ambiente
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   └── passport.config.ts     # Estratégias de proteção de rotas
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>├── database/
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   └── data-source.ts         # Conexão TypeORM e configuração do PostgreSQL
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>├── middlewares/
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│   └── validation.middleware.ts # Validação automática de DTOs
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>├── app.ts                     # Configuração do Express e Middlewares
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>└── server.ts                  # Inicialização do servidor
 </code></pre></div>
-<h2 id="4-configuracao-de-testes-cypress">4. Configuração de Testes (Cypress)</h2>
-<p>O projeto possui uma configuração avançada de TypeScript dedicada aos testes, garantindo que o Cypress interprete corretamente a tipagem e módulos.</p>
-<p>O arquivo <code>cypress/tsconfig.json</code> define:</p>
+<h2 id="4-endpoints-da-api">4. Endpoints da API</h2>
+<p>Detalhamento dos recursos expostos pelo serviço.</p>
+<h3 id="41-registro-de-usuario">4.1 Registro de Usuário</h3>
+<p><strong>Endpoint:</strong> <code>POST /auth/register</code></p>
+<p><strong>Descrição:</strong> Cria uma nova conta no sistema, aplicando hash na senha antes da persistência.</p>
+<p><strong>Body (JSON):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;John Doe&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;john.doe@example.com&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;senhaForte123&quot;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}</span>
+</code></pre></div></p>
+<p><strong>Resposta Sucesso (201 Created):</strong> Retorna o ID e dados públicos do usuário criado.</p>
+<h3 id="42-login">4.2 Login</h3>
+<p><strong>Endpoint:</strong> <code>POST /auth/login</code></p>
+<p><strong>Descrição:</strong> Valida credenciais e retorna um token de acesso.</p>
+<p><strong>Body (JSON):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;john.doe@example.com&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;senhaForte123&quot;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</code></pre></div></p>
+<p><strong>Resposta Sucesso (200 OK):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...&quot;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="p">}</span>
+</code></pre></div></p>
+<h3 id="43-perfil-do-usuario">4.3 Perfil do Usuário</h3>
+<p><strong>Endpoint:</strong> <code>GET /auth/profile</code></p>
+<p><strong>Descrição:</strong> Retorna os dados do usuário atual baseando-se no token enviado.</p>
+<p><strong>Headers:</strong> <code>Authorization: Bearer &lt;token&gt;</code></p>
+<h2 id="5-seguranca-e-dados">5. Segurança e Dados</h2>
 <ul>
-<li><strong>Target:</strong> <code>es5</code> (Compatibilidade máxima)</li>
-<li><strong>Tipos:</strong> Inclui definições de <code>cypress</code> e <code>node</code> para intellisense</li>
-<li><strong>Módulos:</strong> Utiliza <code>commonjs</code> e resolução <code>node</code> para alinhar com o ambiente de execução do executor de testes</li>
-<li><strong>Interoperabilidade:</strong> <code>esModuleInterop: true</code> para facilitar importações de libs externas</li>
-<li><strong>Performance:</strong> </li>
-<li><code>noEmit: true</code> (execução em memória, sem gerar arquivos físicos)</li>
-<li><code>skipLibCheck: true</code> (compilação mais rápida)</li>
+<li><strong>Criptografia:</strong> Senhas nunca são salvas em texto puro. Utiliza-se bcrypt com salts para hashing.</li>
+<li><strong>Tokens:</strong> O JWT contém apenas o ID e tempo de expiração, assinado com JWT_SECRET.</li>
+<li><strong>Banco de Dados:</strong> A entidade User possui restrição de unicidade no campo email.</li>
 </ul>
-<h2 id="5-integracao-e-fluxos">5. Integração e Fluxos</h2>
-<p>O frontend orquestra a comunicação entre os serviços:</p>
-<ul>
-<li><strong>Autenticação:</strong> Envia credenciais para a Auth API, armazena o JWT (local storage/cookie) e o anexa aos headers das requisições subsequentes</li>
-<li><strong>Imóveis:</strong> Consome a Backend API para listar cards de imóveis na Home e exibir detalhes completos na página do produto</li>
-<li><strong>Reservas:</strong> Gerencia formulários de data e envia requisições de reserva autenticadas</li>
-</ul>
-<h2 id="6-scripts-disponiveis">6. Scripts Disponíveis</h2>
-<p>No arquivo <code>package.json</code>, os seguintes comandos são padronizados:</p>
-<ul>
-<li><code>npm start</code> - Inicia o servidor de desenvolvimento local</li>
-<li><code>npm run build</code> - Gera os arquivos estáticos otimizados para produção</li>
-<li><code>npm run cypress:open</code> - Abre a interface interativa de testes do Cypress</li>
-<li><code>npm run cypress:run</code> - Executa os testes E2E em modo headless (terminal)</li>
-</ul>
+<h2 id="6-variaveis-de-ambiente">6. Variáveis de Ambiente</h2>
+<p>Para a execução correta, configure o arquivo <code>.env</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Variável</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PORT</td>
+<td>Porta de execução da API (Ex: 8000)</td>
+</tr>
+<tr>
+<td>DB_HOST</td>
+<td>Host do PostgreSQL</td>
+</tr>
+<tr>
+<td>DB_USERNAME</td>
+<td>Usuário do banco</td>
+</tr>
+<tr>
+<td>DB_PASSWORD</td>
+<td>Senha do banco</td>
+</tr>
+<tr>
+<td>DB_DATABASE</td>
+<td>Nome do banco de dados</td>
+</tr>
+<tr>
+<td>JWT_SECRET</td>
+<td>Chave privada para assinatura de tokens</td>
+</tr>
+</tbody>
+</table>
 <h2 id="7-instalacao-e-execucao">7. Instalação e Execução</h2>
+<p>Serviço responsável por:</p>
+<ul>
+<li>Autenticação</li>
+<li>Autorização (JWT)</li>
+<li>Persistência de usuários com PostgreSQL</li>
+</ul>
 <h3 id="71-pre-requisitos">7.1. Pré-requisitos</h3>
 <ul>
 <li>Node.js 18+</li>
-<li>NPM</li>
+<li>NPM/Yarn</li>
 <li>Git</li>
-<li><strong>Backend funcionando</strong></li>
+<li>PostgreSQL</li>
+<li>Docker (opcional)</li>
 </ul>
 <h3 id="72-instalacao">7.2. Instalação</h3>
 <h3 id="721-clonar-o-repositorio">7.2.1. Clonar o repositório</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/seu-usuario/Travelar-frontend.git
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>Travelar-frontend
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Travelar-Spot/Travelar-Auth-API.git
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">cd</span><span class="w"> </span>travelar-auth-api
 </code></pre></div>
 <h3 id="722-instalar-dependencias">7.2.2. Instalar dependências</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>npm<span class="w"> </span>install
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>npm<span class="w"> </span>install
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="c1"># ou</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>yarn<span class="w"> </span>install
 </code></pre></div>
-<h3 id="73-configuracao">7.3. Configuração</h3>
-<h3 id="731-criar-arquivo-env">7.3.1 Criar arquivo <code>.env</code></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>VITE_API_URL=http://localhost:3333
+<h3 id="73-configuracao-do-ambiente">7.3. Configuração do Ambiente</h3>
+<h3 id="731-arquivo-env">7.3.1. Arquivo <code>.env</code></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>PORT=3000
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>DB_HOST=localhost
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>DB_PORT=5432
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>DB_USERNAME=postgres
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>DB_PASSWORD=senha
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>DB_DATABASE=travelar_auth_db
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>JWT_SECRET=sua_chave_segura
 </code></pre></div>
-<p><em>Altere conforme porta real do backend.</em></p>
 <h3 id="74-executando">7.4. Executando</h3>
 <h3 id="741-modo-desenvolvimento">7.4.1. Modo Desenvolvimento</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>npm<span class="w"> </span>run<span class="w"> </span>dev
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>npm<span class="w"> </span>run<span class="w"> </span>dev
 </code></pre></div>
-<p><strong>Acessar:</strong> http://localhost:5173</p>
-<h3 id="742-build-de-producao">7.4.2. Build de produção</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>npm<span class="w"> </span>run<span class="w"> </span>build
+<h3 id="742-modo-producao">7.4.2 Modo Produção</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>npm<span class="w"> </span>run<span class="w"> </span>build
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>npm<span class="w"> </span>start
 </code></pre></div>
-<h3 id="743-visualizar-build">7.4.3. Visualizar build</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>npm<span class="w"> </span>run<span class="w"> </span>preview
-</code></pre></div>
-<h3 id="75-testes-cypress">7.5. Testes (Cypress)</h3>
-<h3 id="751-modo-interativo">7.5.1 Modo interativo</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>npm<span class="w"> </span>run<span class="w"> </span>test:e2e:open
-</code></pre></div>
-<h3 id="752-headless">7.5.2 Headless</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>npm<span class="w"> </span>run<span class="w"> </span>test:e2e
-</code></pre></div>
-<h3 id="76-qualidade-de-codigo">7.6. Qualidade de Código</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>npm<span class="w"> </span>run<span class="w"> </span>lint<span class="w">              </span><span class="c1"># Analisa o código</span>
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>npm<span class="w"> </span>run<span class="w"> </span>lint:eslint<span class="w">       </span><span class="c1"># ESLint</span>
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>npm<span class="w"> </span>run<span class="w"> </span>lint:eslint:fix<span class="w">   </span><span class="c1"># Corrige ESLint</span>
-<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>npm<span class="w"> </span>run<span class="w"> </span>format<span class="w">            </span><span class="c1"># Formata com Prettier</span>
-</code></pre></div>
+<h3 id="75-scripts-uteis">7.5. Scripts Úteis</h3>
+<table>
+<thead>
+<tr>
+<th>Script</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm run dev</code></td>
+<td>Desenvolvimento</td>
+</tr>
+<tr>
+<td><code>npm run build</code></td>
+<td>Compilar</td>
+</tr>
+<tr>
+<td><code>npm start</code></td>
+<td>Produção</td>
+</tr>
+<tr>
+<td><code>npm run lint</code> / <code>lint:fix</code></td>
+<td>Lint</td>
+</tr>
+<tr>
+<td><code>npm run format</code></td>
+<td>Prettier</td>
+</tr>
+</tbody>
+</table>
 
 
 
