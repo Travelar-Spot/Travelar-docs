@@ -1,20 +1,18 @@
 site_name: Travelar - Plataforma de Hospedagem
 site_url: 
-repo_url: 
-repo_name: Travelar
+repo_url:
+repo_name: Github
 
 theme:
   name: material
   language: pt-BR
   palette: 
-    # Modo Claro
     - scheme: default
       primary: indigo
       accent: blue
       toggle:
         icon: material/weather-night
         name: Mudar para modo escuro
-    # Modo Escuro
     - scheme: slate
       primary: indigo
       accent: blue
@@ -31,26 +29,26 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences 
-  - admonition 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 nav:
   - Início: index.md
   - Planejamento:
-    - Visão do Produto: planejamento/visao.md
-    - Backlog do Produto: planejamento/backlog.md
-    - Histórias de Usuário: planejamento/user-stories.md
+    - Backlog: planejamento/backlog.md
+    - Diagramas: planejamento/diagramas.md
   - Design & UX:
-    - Protótipos: design/prototipos.md
-    - Identidade Visual: design/identidade.md
+    - Protótipo: design/prototipo.md
   - Arquitetura:
-    - Diagramas UML: arquitetura/diagramas.md
+    - API de Autenticação: arquitetura/api-auth.md
     - Backend: arquitetura/backend.md
     - Frontend: arquitetura/frontend.md
   - Banco de Dados:
-    - Modelagem (DER): dados/modelagem.md
-    - Dicionário de Dados: dados/dicionario.md
-  - Qualidade:
-    - Plano de Testes: qualidade/testes.md
-  - Guia de Instalação:
-    - Como rodar o projeto: guia/instalacao.md
+    - Modelagem: dados/banco-de-dados.md

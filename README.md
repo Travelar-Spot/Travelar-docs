@@ -1,53 +1,112 @@
-# Projeto Travelar: Documentação e Backlog
+# Documentação Oficial – Travelar
 
-Este repositório centraliza toda a documentação de arquitetura, diagramas e o backlog de produto para o projeto Travelar. O objetivo é manter um registro claro e acessível das decisões de design e do planejamento de desenvolvimento do software.
+Documentação central do ecossistema **Travelar**, organizada para fornecer uma visão completa do projeto, desde planejamento até arquitetura, modelagem de dados e integrações entre os microsserviços.
 
-## Diagramas de Arquitetura
+---
 
-Os diagramas a seguir representam a estrutura e o fluxo de dados planejados para a aplicação.
+## Visão Geral
 
-## Diagrama de Classes
+Este repositório reúne toda a documentação do **Travelar**, uma plataforma moderna de hospedagem que conecta viajantes e anfitriões, oferecendo funcionalidades como autenticação, gestão de propriedades e reservas.
 
-![Diagrama de Classes](./DiagramadeClasses.png)
+Aqui você encontrará:
 
-## Diagrama de Fluxo de Dados
+* Planejamento do produto
+* Protótipo e decisões de design
+* Arquitetura completa da solução
+* Documentação do Backend, Frontend e API de Autenticação
+* Modelagem do Banco de Dados
+* Diagramas e navegação entre repositórios
 
-![Diagrama de Fluxo do Banco de Dados](./DiagramadeFluxodeDados.png)
+## Repositórios Oficiais do Projeto
 
-## Backlog
+A arquitetura do Travelar segue o princípio de **microsserviços desacoplados**, cada um versionado em seu próprio repositório.
 
-O backlog é gerenciado de forma interativa na aba Projects deste repositório. A tabela a seguir apresenta um resumo das Histórias de Usuário (US) planejadas para o desenvolvimento.
+A documentação aqui presente abrange todos eles.
 
-| ID | História de Usuário |
-| :--- | :--- |
-| US-01 | Como usuário, quero gerenciar minha conta para manter meus dados atualizados. |
-| US-02 | Como proprietário, quero gerenciar meus imóveis para disponibilizá-los para aluguel. |
-| US-03 | Como cliente, quero gerenciar minhas reservas para garantir e organizar minhas hospedagens. |
-| US-04 | Como cliente, quero gerenciar meus cartões para realizar transações de forma segura. |
-| US-05 | Como cliente, quero avaliar uma hospedagem para compartilhar minha experiência. |
-| US-06 | Como cliente, quero buscar imóveis por cidade para encontrar opções no meu destino. |
-| US-07 | Como cliente, quero filtrar a busca por número de hóspedes para garantir acomodação adequada. |
-| US-08 | Como cliente, quero buscar imóveis por período para verificar a disponibilidade. |
-| US-09 | Como cliente, quero filtrar imóveis por tipo (casa/apartamento) conforme minha preferência. |
-| US-10 | Como cliente, quero filtrar imóveis por faixa de preço para encontrar opções no meu orçamento. |
+### API de Autenticação
 
-## Protótipo
+Gerencia registro, login, hashing, emissão de JWT e proteção de rotas.
+[Link para o repositório](https://github.com/Travelar-Spot/Travelar-Auth-API)
 
-Telas do protótipo do projeto feito no vO
+---
 
-## Tela 1
+### Backend 
 
-![Protótipo Pagina 1](./PrototipoPagina1.png)
+Responsável pela lógica de negócios principal: propriedades, reservas, busca, disponibilidade e integrações internas.
+[Link para o repositório](https://github.com/Travelar-Spot/Travelar-Backend)
 
-## Tela 2
+---
 
-![Protótipo Pagina 2](./PrototipoPagina2.png)
+### Frontend 
 
-## Tela 3
+Aplicação React + TypeScript que consome os microsserviços e entrega a interface do usuário.
+[Link para o repositório](https://github.com/Travelar-Spot/Travelar-Frontend)
 
-![Protótipo Pagina 3](./PrototipoPagina3.png)
+---
 
-## Tela 4
+## Estrutura dos Conteúdos
 
-![Protótipo Pagina 4](./PrototipoPagina4.png)
+A documentação foi pensada para facilitar a leitura, a manutenção e a navegação:
 
+### **1. Início**
+
+Resumo do projeto, objetivos e motivação.
+
+### **2. Planejamento**
+
+* Histórias de usuário
+* Backlog completo
+* Diagramas iniciais (UML, casos de uso, fluxo de navegação)
+
+### **3. Design & UX**
+
+* Protótipos
+* Layouts
+* Fluxos de interação
+
+### **4. Arquitetura**
+
+Documentações detalhadas dos três repositórios:
+
+* **API de Autenticação**
+* **Backend**
+* **Frontend**
+
+Cada uma contendo:
+
+* Estrutura de pastas
+* Tecnologias
+* Exemplos
+* Fluxos internos
+* Endpoints / responsabilidades
+
+### **5. Banco de Dados**
+
+* Modelagem lógica
+* Relacionamentos
+* Diagrama ER (Mermaid)
+* Esquema PostgreSQL
+
+---
+
+## Como Executar a Documentação Localmente
+
+### 1. Instalar dependências
+
+```bash
+pip install mkdocs-material
+```
+
+### 2. Rodar servidor local
+
+```bash
+mkdocs serve
+```
+
+### 3. Acessar
+
+```
+http://localhost:8000
+```
+
+---
