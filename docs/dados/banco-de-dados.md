@@ -7,7 +7,7 @@ Este documento detalha o modelo Físico e DDL do banco de dados doprojeto Travel
 ## 1. Modelo Físico
 
 <div style="text-align: center;">
-<img src="https://github.com/Travelar-Spot/Travelar-docs\docs\dados\assets\modelo_fisico_travelar.png" alt="Modelo Físico" width="100%">
+<img src="https://raw.githubusercontent.com/Travelar-Spot/Travelar-docs/refs/heads/main/docs/dados/assets/modelo_fisico_travelar.png" alt="Modelo Físico" width="100%">
 </div>
 
 ---
