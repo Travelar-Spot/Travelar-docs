@@ -375,24 +375,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Início
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -409,36 +391,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#destaques-do-projeto" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Destaques do Projeto:
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -904,25 +856,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#destaques-do-projeto" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Destaques do Projeto:
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -942,24 +875,55 @@
 
 
 <h1 id="visao-geral-do-projeto-travelar">Visão Geral do Projeto Travelar</h1>
-<p>O <strong>Travelar</strong> é uma plataforma de hospedagem projetada para conectar viajantes e anfitriões de maneira simples, intuitiva e segura. Com foco na experiência do usuário e na qualidade técnica, o sistema facilita todas as etapas da jornada de hospedagem, desde a busca e reserva de estadias até a gestão eficiente de propriedades pelos anfitriões.</p>
-<p>A plataforma oferece mecanismos avançados de busca e filtros, cadastro e autenticação confiável, fluxo completo de reservas e avaliações pós-hospedagem, garantindo transparência e praticidade para ambos os perfis de usuários. Seu desenvolvimento se apoia em uma arquitetura moderna e robusta, que integra de forma consistente o backend, responsável pelas regras de negócio e APIs, e o frontend, responsável pela interface visual responsiva e acessível.</p>
-<p>Com testes automatizados, padronização de código e documentação clara, o Travelar busca entregar uma solução estável, escalável e preparada para futuras expansões, consolidando-se como uma plataforma completa para o mercado de hospedagem.</p>
-<h2 id="destaques-do-projeto">Destaques do Projeto:</h2>
+<div align="center">
+    <p><strong>1. Tela Inicial</strong></p>
+    <img src="https://raw.githubusercontent.com/Travelar-Spot/Travelar-docs/refs/heads/main/docs/assets/banner.png" alt="Banner" width="100%">
+    <br><br>
+</div>
+
+<h1 id="visao-geral-do-projeto-travelar_1">Visão Geral do Projeto Travelar</h1>
+<p>O Travelar é uma plataforma de hospedagem projetada para conectar viajantes e anfitriões de maneira simples, intuitiva e segura. A plataforma oferece mecanismos de busca e filtros, cadastro e autenticação confiável, fluxo completo de reservas e avaliações pós-hospedagem, garantindo transparência e praticidade para ambos os perfis de usuários.</p>
+<p>Seu desenvolvimento se apoia em uma arquitetura moderna e robusta, que integra de forma consistente o backend, responsável pelas regras de negócio e APIs, e o frontend, responsável pela interface visual responsiva e acessível.</p>
+<p>Com testes automatizados, padronização de código, seguindo o Clean Code e SOLID e documentação clara, o Travelar busca entregar uma solução estável, escalável e preparada para futuras expansões.</p>
+<h2 id="destaques-do-projeto">Destaques do Projeto</h2>
 <ul>
 <li>
-<p>Funcionalidades Principais: Autenticação de usuários, gestão de imóveis, fluxo completo de busca e reservas, e sistema de avaliações pós-hospedagem.</p>
+<p><strong>Funcionalidades Principais:</strong> Autenticação de usuários, gestão de imóveis, fluxo completo de busca e reservas, e sistema de avaliações pós-hospedagem.</p>
 </li>
 <li>
-<p>Público-Alvo: Atende tanto hóspedes (foco na facilidade de reserva) quanto anfitriões (foco na administração de anúncios).</p>
+<p><strong>Público-Alvo:</strong> Atende tanto hóspedes (foco na facilidade de reserva) quanto anfitriões (foco na administração de anúncios).</p>
 </li>
 <li>
-<p>Escopo Técnico: Inclui API Backend, API de autenticação, Frontend e testes automatizados.</p>
+<p><strong>Escopo Técnico:</strong> Inclui API Backend, API de autenticação, Frontend e testes automatizados.</p>
 </li>
 <li>
-<p>Diretrizes de Qualidade: O desenvolvimento segue padrões de Clean Code e SOLID para garantir um sistema seguro, testável e escalável.</p>
+<p><strong>Diretrizes de Qualidade:</strong> O desenvolvimento segue padrões de Clean Code e SOLID para garantir um sistema seguro, testável e escalável.</p>
+</li>
+<li>
+<p><strong>Arquitetura do Sistema:</strong> O sistema não é monolítico; ele opera através da orquestração de três componentes principais que se comunicam via protocolo HTTP/REST, garantindo desacoplamento de responsabilidades e escalabilidade independente.</p>
 </li>
 </ul>
+<h2 id="organizacao-do-codigo-padrao-modular">Organização do Código (Padrão Modular)</h2>
+<p>Internamente, a organização do código fonte adota uma Arquitetura Modular, padrão sugerido pelo professor Thiago. Ao invés de separar o código por camadas técnicas tradicionais (ex: uma pasta só para Controllers, outra só para Services), o projeto agrupa todos os arquivos relacionados a uma funcionalidade específica no mesmo diretório (ex: Imovel/, Reserva/). Isso facilita a manutenção e encapsula a lógica de cada domínio.</p>
+<h2 id="1-estrategia-de-microsservicos">1. Estratégia de Microsserviços</h2>
+<p>A arquitetura divide o sistema em serviços especializados:</p>
+<h3 id="11-travelar-auth-api">1.1. Travelar Auth API</h3>
+<p>Microserviço focado exclusivamente na gestão de identidades, hashing de senhas e emissão de tokens JWT, desacoplando dados sensíveis do restante da plataforma.</p>
+<h3 id="12-travelar-backend">1.2. Travelar Backend</h3>
+<p>Núcleo responsável pelas regras de negócio (Imóveis, Reservas, Avaliações), organizado na arquitetura modular baseada em domínios citada acima.</p>
+<h2 id="2-travelar-frontend">2. Travelar Frontend</h2>
+<p>Interface moderna desenvolvida utilizando React, TypeScript e Vite. Atua como orquestradora, obtendo credenciais na Auth API para consumir os recursos protegidos do Backend Core.</p>
+<h2 id="3-fluxo-de-dados-e-seguranca">3. Fluxo de Dados e Segurança</h2>
+<p>A comunicação é protegida via autenticação JWT (Bearer Token), onde o token assinado libera o acesso a rotas protegidas. A persistência de dados é garantida por um banco relacional PostgreSQL com integridade referencial rigorosa.</p>
+<h2 id="4-infraestrutura-e-devops">4. Infraestrutura e DevOps</h2>
+<p>Ambiente padronizado através do uso de Docker e Docker Compose para containerização da aplicação e banco de dados. O armazenamento de mídia é terceirizado para o serviço Cloudinary, otimizando a performance de entrega de imagens.</p>
+<h2 id="5-estrategia-de-qualidade-e-testes">5. Estratégia de Qualidade e Testes</h2>
+<p>O projeto possui cobertura completa de testes em todas as camadas:</p>
+<ul>
+<li><strong>Backend:</strong> Utiliza Jest para testes unitários, de integração e parametrizados.</li>
+<li><strong>Frontend:</strong> Utiliza Cypress para testes automatizados End-to-End (E2E) que simulam a navegação real do usuário.</li>
+</ul>
+<hr />
 
 
 
