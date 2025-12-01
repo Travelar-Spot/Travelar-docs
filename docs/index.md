@@ -13,6 +13,8 @@ Seu desenvolvimento se apoia em uma arquitetura moderna e robusta, que integra d
 
 Com testes automatizados, padronização de código, seguindo o Clean Code e SOLID e documentação clara, o Travelar busca entregar uma solução estável, escalável e preparada para futuras expansões.
 
+Este projeto foi realizado com base no trabalho de Orientação a Objetos disponível em [OO-UNBGama](https://github.com/luciano-freitas-melo/OO-UNBGama).
+
 ## Destaques do Projeto
 
 - **Funcionalidades Principais:** Autenticação de usuários, gestão de imóveis, fluxo completo de busca e reservas, e sistema de avaliações pós-hospedagem.
