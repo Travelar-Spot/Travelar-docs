@@ -2,6 +2,8 @@
 
 Este documento detalha o modelo Físico e DDL do banco de dados doprojeto Travelar.
 
+O banco de dados relacional (PostgreSQL) do projeto encontra-se hospedado na plataforma **Supabase**.
+
 ---
 
 ## 1. Modelo Físico

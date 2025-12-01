@@ -2,9 +2,10 @@
 
 ## 1. Visão Geral do Projeto
 
-O **Travelar Backend** é o núcleo de regras de negócios da plataforma. Diferente da Auth API, este serviço gerencia as entidades principais do domínio de hospedagem: Imóveis, Reservas, Avaliações e Upload de Mídia.
+O **Travelar Backend** é o núcleo de regras de negócios da plataforma. Diferente da Auth API, este serviço gerencia as entidades principais do domínio de hospedagem: Imóveis, Reservas, Avaliações e Upload de Mídia. Ele é construído para ser robusto e testável, integrando-se com serviços externos (Cloudinary para imagens) e utilizando containerização (Docker) para facilitar o deploy.
 
-Ele é construído para ser robusto e testável, integrando-se com serviços externos (Cloudinary para imagens) e utilizando containerização (Docker) para facilitar o deploy.
+O Backend do projeto encontra-se hospedado na plataforma **Render**.
+
 
 [Link para o repositório](https://github.com/Travelar-Spot/Travelar-backend)
 

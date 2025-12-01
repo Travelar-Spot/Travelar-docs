@@ -4,6 +4,9 @@
 
 A **Travelar Auth API** é um microserviço fundamental e independente dentro do ecossistema Travelar. Sua responsabilidade é centralizar toda a lógica de segurança, garantindo modularidade e escalabilidade ao isolar o gerenciamento de identidades dos demais serviços de negócio.
 
+A API de autenticação do projeto encontra-se hospedado na plataforma **Render**.
+
+
 [Link para o repositório](https://github.com/Travelar-Spot/Travelar-Auth-API)
 
 ### Funções Primárias

@@ -3,9 +3,10 @@
 
 ## 1. Visão Geral
 
-O **Travelar Frontend** é a interface visual da plataforma, responsável por oferecer uma experiência rica e interativa para hóspedes e proprietários. O projeto consome as APIs de Backend e Autenticação para fornecer funcionalidades de busca, reserva e gestão de propriedades.
+O **Travelar Frontend** é a interface visual da plataforma, responsável por oferecer uma experiência rica e interativa para hóspedes e proprietários. O projeto consome as APIs de Backend e Autenticação para fornecer funcionalidades de busca, reserva e gestão de propriedades. O foco da arquitetura é robustez e testabilidade, utilizando TypeScript extensivamente e uma suíte dedicada de testes End-to-End (E2E).
 
-O foco da arquitetura é robustez e testabilidade, utilizando TypeScript extensivamente e uma suíte dedicada de testes End-to-End (E2E).
+O Frontend do projeto encontra-se hospedado na plataforma **Vercel**.
+
 
 [Link para o repositório](https://github.com/Travelar-Spot/Travelar-frontend)
 
