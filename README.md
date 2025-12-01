@@ -1,5 +1,11 @@
 # Documentação Oficial – Travelar
 
+<div align="center">
+    <p><strong>1. Tela Inicial</strong></p>
+    <img src="https://raw.githubusercontent.com/Travelar-Spot/Travelar-docs/refs/heads/main/docs/assets/banner.png" alt="Banner" width="100%">
+    <br><br>
+</div>
+
 Documentação central do ecossistema **Travelar**, organizada para fornecer uma visão completa do projeto, desde planejamento até arquitetura, modelagem de dados e integrações entre os microsserviços.
 [Link para a Documentação](https://travelar-spot.github.io/Travelar-docs)
 
